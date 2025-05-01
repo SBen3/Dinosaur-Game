@@ -26,9 +26,9 @@ export class Text {
     }
 
     context.font = "bold 25px lucida console";
-    context.fillText(this.game.score, 130, 50);
+    context.fillText(this.game.score , 130, 50);
 
-    context.fillText(this.game.time.toFixed(), 130, 129);
+    context.fillText(this.game.time.toFixed() + "/100", 130, 129);
   }
   winDraw(context) {
     context.drawImage(this.winImg, 190, 130, 900, 300);

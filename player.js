@@ -116,7 +116,6 @@ export class Player {
         } else {
           this.setState(5 , 0);
           enemy.markForDeletion = true;
-          this.game.score--;
           this.game.lives--;
         }
       }

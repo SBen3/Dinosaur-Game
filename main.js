@@ -35,13 +35,13 @@ window.addEventListener("load", () => {
       if (Math.random() > 0.999) {
         this.enemies.unshift(new Bee(this));
       }
-      if (Math.random() > 0.9999) {
+      if (Math.random() > 0.999) {
         this.enemies.unshift(new Ghost(this));
       }
       if (Math.random() > 0.999) {
         this.enemies.unshift(new YellowMonster(this));
       }
-      if (Math.random() > 0.9999) {
+      if (Math.random() > 0.999) {
         this.enemies.unshift(new Monster(this));
       }
     }
